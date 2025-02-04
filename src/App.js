@@ -5,9 +5,10 @@ import Navigation from './routes/navigation/navigation.component'
 import Authentication from './routes/authentication/authentication.component'
 
 const Asiakkaat = () => {
-  return
-    <h1>Asiakkaat sivu</h1>;
-};
+  return (
+    <h1>Asiakkaat sivu</h1>
+  )
+}
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Route path='auth' element={<Authentication />} />
       </Route>
     </Routes>
-  );
+  )
 };
 
 export default App;
