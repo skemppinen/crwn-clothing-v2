@@ -1,0 +1,123 @@
+[
+    {
+        "id": "1e3ba4698-d64...",
+        "name": "8dbd4d71",
+        "state": "START",
+        "createdAt": "06.01.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.14,
+        "imageBase64": "",
+        "imageUrl": "/loukut/protecta_evo_express_xl.png"
+    },
+    {
+        "id": "2e3ba4698-d64...",
+        "name": "8dbd4d72",
+        "state": "ONLINE",
+        "createdAt": "18.01.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.15,
+        "imageBase64": "",
+        "imageUrl": "/loukut/metallinen.png"
+    },
+    {
+        "id": "3e3ba4698-d...",
+        "name": "8dbd4d73",
+        "state": "OFFLINE",
+        "createdAt": "12.01.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.16,
+        "imageBase64": "",
+        "imageUrl": "/loukut/protecta_evo_ambush.png"
+    },
+    {
+        "id": "4e3ba4698-d64b-4...",
+        "name": "8dbd4d74",
+        "state": "START",
+        "createdAt": "01.01.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.17,
+        "imageBase64": "",
+        "imageUrl": "/loukut/protecta_evo_ambush.png"
+    },
+    {
+        "id": "5e3ba4698...",
+        "name": "8dbd4d75",
+        "state": "START",
+        "createdAt": "01.02.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.18,
+        "imageBase64": "",
+        "imageUrl": "/loukut/protecta_evo_ambush.png"
+    },
+    {
+        "id": "6e3ba4698-d64b-447e-8...",
+        "name": "8dbd4d76",
+        "state": "START",
+        "createdAt": "02.02.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.18,
+        "imageBase64": "",
+        "imageUrl": "/loukut/metallinen.png"
+    },
+    {
+        "id": "7e3ba46...",
+        "name": "8dbd4d77",
+        "state": "START",
+        "createdAt": "02.02.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.19,
+        "imageBase64": "",
+        "imageUrl": "/loukut/metallinen.png"
+    },
+    {
+        "id": "8e3ba469...",
+        "name": "8dbd4d78",
+        "state": "START",
+        "createdAt": "03.02.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.15,
+        "imageBase64": "",
+        "imageUrl": "/loukut/metallinen.png"
+    },
+    {
+        "id": "9e3ba4698-d64b-4...",
+        "name": "8dbd4d79",
+        "state": "START",
+        "createdAt": "04.02.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.18,
+        "imageBase64": "",
+        "imageUrl": "/loukut/metallinen.png"
+    },
+    {
+        "id": "0e3ba4698-d64b-447e...",
+        "name": "8dbd4d80",
+        "state": "START",
+        "createdAt": "18.01.2025 14:36:02 EET +0200",
+        "longitude": 25.0576896,
+        "latitude": 60.3488256,
+        "batteryPercentage": 97,
+        "batteryVolts": 4.18,
+        "imageBase64": "",
+        "imageUrl": "/loukut/metallinen.png"
+    }
+  ]
+  

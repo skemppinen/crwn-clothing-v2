@@ -4,11 +4,7 @@ import Home from './routes/home/home.component'
 import Navigation from './routes/navigation/navigation.component'
 import Authentication from './routes/authentication/authentication.component'
 
-const Asiakkaat = () => {
-  return (
-    <h1>Asiakkaat sivu</h1>
-  )
-}
+import Asiakkaat from './routes/shop/shop.component';
 
 const App = () => {
   return (

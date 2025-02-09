@@ -4,15 +4,18 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
 import { UserProvider } from './contexts/user.context';
-import './index.scss';
+import { AsiakkaatProvider } from './contexts/asiakkaat.context';
 
+import './index.scss';
 const rootElement = document.getElementById('root');
 
 render(
   <React.StrictMode>
     <BrowserRouter>
-      <UserProvider>
+      <UserProvider> 
+        <AsiakkaatProvider>
         <App />
+        </AsiakkaatProvider>
       </UserProvider>
     </BrowserRouter>
   </React.StrictMode>,
