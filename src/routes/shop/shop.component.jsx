@@ -1,19 +1,21 @@
-import { useContext } from 'react'
+import { useContext } from 'react';
 
-import { AsiakkaatContext } from '../../contexts/asiakkaat.context';
-import Asiakaskortti from '../../components/asiakaskortti/asiakaskortti.component';
-import './asiakkaat.styles.scss'
+import ProductCard from '../../components/product-card/product-card.component';
 
+import { ProductsContext } from '../../contexts/products.context';
 
-const Asiakkaat = () => {
-    const { asiakkaat } = useContext(AsiakkaatContext)
-    return (
-        <div className='asiakkaat-container'>
-            {asiakkaat.map((asiakas) => (
-                <Asiakaskortti key={asiakas.id} asiakas={asiakas} />
-            ))}
-        </div>
-    )
-}
+import './shop.styles.scss';
 
-export default Asiakkaat;
+const Shop = () => {
+  const { products } = useContext(ProductsContext);
+
+  return (
+    <div className='products-container'>
+      {products.map((product) => (
+        <ProductCard key={product.id} product={product} />
+      ))}
+    </div>
+  );
+};
+
+export default Shop;

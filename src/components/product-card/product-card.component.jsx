@@ -1,10 +1,10 @@
-import './asiakaskortti.styles.scss'
+import './product-card.styles.scss'
 import Button from '../button/button.component'
 
 
-const Asiakaskortti = ({asiakas}) => {
+const ProductCard = ({asiakas}) => {
     const {name, state, imageUrl, id, createdAt, longitude, latitude, batteryPercentage, batteryVolts } = asiakas;
-return (<div className='asiakaskortti-container'>
+return (<div className='product-card-container'>
     <img src={imageUrl} alt={`${name}`}/>
     <div className='footer'>
     <span className='name'>{name}</span>
@@ -30,4 +30,4 @@ return (<div className='asiakaskortti-container'>
 </div>)
 }
 
-export default Asiakaskortti;
+export default ProductCard;
